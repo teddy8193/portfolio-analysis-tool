@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "portfolio-analysis-tool"
+version = "0.1.0"
+description = ""
+authors = ["Yuri Serizawa <teddy8193@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+pyarrow = "16.1.0"
+jupyter = "^1.0.0"
+streamlit = "^1.36.0"
+plotly = "^5.23.0"
+yfinance = "^0.2.41"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+pandas-datareader = {git = "https://github.com/pydata/pandas-datareader.git", rev = "a1cf7a20fe03dd63e930fa5ca1311a57897c9ddd"}
+pytest = "^8.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

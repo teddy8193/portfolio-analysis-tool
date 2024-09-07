@@ -1,5 +1,5 @@
-from efficient_frontier import data
-
-
-def test_get_rand_weights_shape():
-    assert data.get_rand_weights(100, 3).shape == (100, 3)
+import pytest
+from portfolio_analysis_tool import data
+import datetime as dt
+import numpy as np
+import pandas as pd
