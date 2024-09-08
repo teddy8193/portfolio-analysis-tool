@@ -1,6 +1,7 @@
 # Portfolio Analysis Tool
 ## Abstract
 This is a repository of the Portfolio Analysis Tool, which is designed to help people analyze stock performance.
+The app retrieves stock data from Yahoo!Finance API.
 
 ## App
 https://portfolio-analysis-tool.streamlit.app/
@@ -23,3 +24,6 @@ Correlation between given tickers
 
 ![スクリーンショット 2024-09-08 002316](https://github.com/user-attachments/assets/89faefe9-43e4-4d56-bc67-c4f7d2bcdf3c)
 Efficient frontier plot with Sharpe Ratio by given tickers
+
+## Tech stack
+Python, Streamlit
